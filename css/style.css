@@ -3,11 +3,12 @@
 
 
 :root{
-    --bg-gray:rgb(26, 211, 224);
+    --bg-gray:rgb(37, 170, 179);
     --texte-gray: #4a4a4a;
-    --color-primary:#f0a211;
+    --color-primary:#e21313;
     --white: #fff;
-    --nav-h1:rgb(10, 100, 173)
+    --nav-h1:rgb(255, 255, 255);
+
 }
 
 * {
@@ -91,6 +92,7 @@ a, a:hover {
     border-radius: 0 0 8px 8px;
     min-height: 150px ;
     justify-content: space-between;
+    max-height: 150px;
 }
 .dsmovie-card-description h3{
     font-size: 14px;
