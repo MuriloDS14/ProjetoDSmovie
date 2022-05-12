@@ -115,9 +115,18 @@ a, a:hover {
 
 }  
 
+.dsmovie-form-container{
+    padding: 40px 0;
+    max-width: 480px;
+    
+}
+
+
 body{
     background-image: url(../img/DnD_bg-Eberron04.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
+
