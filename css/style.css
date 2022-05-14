@@ -8,7 +8,7 @@
     --color-primary:#e21313;
     --white: #fff;
     --nav-h1:rgb(255, 255, 255);
-
+    --texte-light-gray: #aaa
 }
 
 * {
@@ -112,6 +112,7 @@ a, a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    border: 0;
 
 }  
 
@@ -129,4 +130,46 @@ body{
     background-position: center center;
 }
 
+.dsmovie-form-description{
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+    
+}
+
+
+
+.dsmovie-form{
+    width: 100%;
+}
+
+.dsmovie-form-description h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.dsmovie-form-group{
+    margin-bottom: 20px;
+    }
+
+
+    .dsmovie-form-group label{
+        font-size: 12px;
+        color: var(--texte-light-gray);
+        }
+
+
+.dsmovie-form-btn-container{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
 
