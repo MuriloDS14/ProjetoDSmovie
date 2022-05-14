@@ -21,8 +21,13 @@
 }
 
 html, body {
-    background-color: var(--bg-gray);
-}
+        background-image: url(../img/DnD_bg-Eberron04.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        
+    }
 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -151,12 +156,7 @@ a, a:hover {
 }
 
 
-body{
-    background-image: url(../img/DnD_bg-Eberron04.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+
 
 .dsmovie-form-description{
     background-color: var(--white);
@@ -250,5 +250,6 @@ filter: unset;
 .dsmovie-flip-horizontal {
   transform: rotate(180deg);  
 }
+
 
 
